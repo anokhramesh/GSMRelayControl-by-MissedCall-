@@ -1,9 +1,9 @@
-#include <SoftwareSerial.h>
-#include "Adafruit_FONA.h"
+#include <SoftwareSerial.h>//Install SoftwareSerial Library 
+#include "Adafruit_FONA.h"// Install Adafruit FONA library
  
-#define FONA_RX            2
-#define FONA_TX            3
-#define FONA_RST           4
+#define FONA_RX            2//Connect RX pin of GSM module to Digital Pin 2 of Arduino board
+#define FONA_TX            3//Connect TX pin of GSM module to Digital Pin 3 of Arduino board
+#define FONA_RST           4// No connection
  
 #define FONA_RI_INTERRUPT  0
 int x=1;
